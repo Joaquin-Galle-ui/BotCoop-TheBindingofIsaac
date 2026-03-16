@@ -64,8 +64,6 @@ modelo_gemini = genai.GenerativeModel('gemini-1.5-flash')
 
 
 
-
-
 ## 🛠️ Installation & Setup
 
 To get this AI Bot Co-op running perfectly on your machine, follow these steps.
@@ -76,40 +74,42 @@ To get this AI Bot Co-op running perfectly on your machine, follow these steps.
 3. **ViGEmBus Driver:** The `mando_virtual.py` script requires this virtual driver to emulate an Xbox 360 controller on Windows. **If you skip this step, the script will crash.**
    - Download and install it from the official release page: [ViGEmBus Releases](https://github.com/nefarius/ViGEmBus/releases)
 
-### Step 1: Clone the repository
-Open your terminal or command prompt and run:
-```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
-
-
-Step 2: Install Dependencies
-This project uses a requirements.txt file to install all the necessary Python libraries automatically. Run the following command in your terminal:
+### Step 1: Install Dependencies
+Open your terminal or command prompt inside the project folder and run the following command to install all required libraries automatically:
+```
 
 pip install -r requirements.txt
 
+```
 
-🛠️ Troubleshooting PyAudio on Windows: > If you get a red compilation error while installing PyAudio (a common issue on Windows if C++ build tools are missing), run these alternative commands to fix it:****        
+🛠️ Troubleshooting PyAudio on Windows: > If you get a red compilation error while installing PyAudio (a common issue on Windows if C++ build tools are missing), run these alternative commands to fix it:
 
+```
 pip install pipwin
 pipwin install pyaudio
+```
 
+Step 2: Configure your API Key
+1. Open the ia_puente.py file in any text editor.
+2. Locate the line at the top: GROQ_API_KEY = "APY_KEY_HERE".
+3. Get a free API key from console.groq.com and paste it inside the quotes.
+(Note: You can swap Groq for OpenAI or Google Gemini by modifying the client setup directly in the code).
 
-Step 3: Configure your API Key
-Open the ia_puente.py file in any text editor.
+Step 3: Run the Bot!
 
-Locate the line at the top: GROQ_API_KEY = "APY_KEY_HERE".
+1. Start The Binding of Isaac: Repentance.
 
-Get a free API key from console.groq.com and paste it inside the quotes.
-(Note: You can swap Groq for OpenAI or Google Gemini by modifying the client setup in the code).
-
-Step 4: Run the Bot!
-Start The Binding of Isaac: Repentance.
-
-Open a terminal and run the virtual controller script first:
+2. Open a terminal in the project folder and run the virtual controller script first:
 python mando_virtual.py
 
-Open a second terminal and run the AI bridge script:
+3. Open a second terminal and run the AI bridge script:
 python ia_puente.py
 
-Once in a run, press B on your keyboard to spawn your new AI companion!
+4. Once in a run, press B on your keyboard to spawn your new AI companion!
+
+
+
+
+
+
+
