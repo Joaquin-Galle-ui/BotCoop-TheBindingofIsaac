@@ -1,0 +1,6 @@
+vgamepad
+keyboard
+groq
+pyttsx3
+SpeechRecognition
+PyAudio
