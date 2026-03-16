@@ -30,16 +30,6 @@ def hablar_bot(texto):
     threading.Thread(target=reproducir, daemon=True).start()
 
 # --- 4. FUNCIONES DE LA IA ---
-def pedir_consejo_automatico(vida, sala, item):
-    prompt = f"El usuario está jugando Isaac. Vida: {vida} medios corazones. Enemigos vivos: {enemigos_vivos}. Jefe en la sala: {hay_jefe}. Ítem visto: '{item}'. Dale un consejo. solo 2 lineas de texto, Si hay un jefe o la vida es muy baja, alentá con toda la pasión del mundo, como si tu vida dependiera de ello."
-    try:
-        respuesta = cliente.chat.completions.create(
-            messages=[{"role": "user", "content": prompt}],
-            model="llama-3.1-8b-instant",
-        )
-        return respuesta.choices[0].message.content.strip()
-    except Exception as e:
-        return f"(Fallo de red: {e})"
 
 def pedir_consejo_automatico(vida, sala, item):
     prompt = f"El usuario está jugando Isaac. Vida: {vida} medios corazones. Ítem visto: '{item}'. Reacciona a esto en MÁXIMO 20 PALABRAS. Hablá como una chica gamer del conurbano bonaerense. CORTITO Y AL PIE, una sola frase rápida. (Ejemplo: 'Uf, qué buen ítem ese, agarrémoslo' o 'Cuidado que nos matan, loco'). Traducí códigos raros como #NAME al español simple."
