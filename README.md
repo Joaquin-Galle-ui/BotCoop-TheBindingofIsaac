@@ -1,4 +1,7 @@
-# BotCoop-The Binding of Isaac
+
+<img width="5456" height="3072" alt="Logo" src="https://github.com/user-attachments/assets/9e5c2a4b-8c05-4391-8499-fe135eb33023" />
+
+
 This mod allows you to have a second player in TBOI. It's useful for completing achievements faster or if you want to play with two players without needing a real second player. It also includes an AI that can chat with you about the game; you can use any AI (Gemini, ChatGPT, Azura, etc.).
 
 BEFORE INSTALLING THE MOD.
