@@ -15,6 +15,9 @@ By default, this project uses Groq for its ultra-fast inference speed. However, 
 
 Here is how to do it for each provider:
 
+<img width="3051" height="1718" alt="sub2" src="https://github.com/user-attachments/assets/b06b75f0-99e8-4136-9e2a-6bc33b016d74" />
+
+
 Option 1: Switching to OpenAI (ChatGPT)
 OpenAI uses a very similar structure to Groq. You just need to change the client setup and the model string.
 
@@ -67,7 +70,8 @@ modelo_gemini = genai.GenerativeModel('gemini-1.5-flash')
 
 
 
-## 🛠️ Installation & Setup
+<img width="3051" height="1718" alt="subtitulo" src="https://github.com/user-attachments/assets/9ce90aac-96fb-4e5b-b2ea-ae85ccd00617" />
+
 
 To get this AI Bot Co-op running perfectly on your machine, follow these steps.
 
