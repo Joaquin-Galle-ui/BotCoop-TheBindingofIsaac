@@ -47,7 +47,7 @@ Gameplay GIFs and new screenshots will be added after the next version of the mo
 
 # Features
 
-## 🤖 Autonomous Companion
+## Autonomous Companion
 
 The bot operates as an independent Player 2.
 
@@ -65,7 +65,7 @@ It can:
 
 ---
 
-## 💀 Hazard Awareness
+## Hazard Awareness
 
 The bot includes basic environmental awareness and tries to avoid dangerous objects.
 
@@ -84,7 +84,7 @@ The movement system combines its current objective with repulsion forces generat
 
 ---
 
-## 🎁 Smart Pickup Behaviour
+## Smart Pickup Behaviour
 
 The companion will not automatically steal important collectibles from Player 1.
 
@@ -370,7 +370,7 @@ GROQ_API_KEY = "APY_KEY_HERE"
 
 and replace the placeholder with your own API key.
 
-> ⚠️ **Never upload a real API key to GitHub.**
+> **Never upload a real API key to GitHub.**
 
 A future version will move this configuration into environment variables.
 
