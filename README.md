@@ -230,7 +230,7 @@ Then replace this comment with:
 ---
 
 <p align="center">
-  <img src="assets/Instalation-and-setup.png" alt="Installation and Setup" width="100%">
+  <img src="assets/Installation-and-setup.png" alt="Installation and Setup" width="100%">
 </p>
 
 # Installation & Setup
