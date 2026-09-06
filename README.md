@@ -35,7 +35,7 @@ The goal is simple:
 
 ---
 
-## 🚧 Current Status
+## Current Status
 
 **Bot Co-op is currently being updated.**
 
@@ -230,7 +230,7 @@ Then replace this comment with:
 ---
 
 <p align="center">
-  <img src="assets/Instalation-%26-setup.png" alt="Installation and Setup" width="100%">
+  <img src="assets/Instalation-and-setup.png" alt="Installation and Setup" width="100%">
 </p>
 
 # Installation & Setup
